@@ -1,0 +1,57 @@
+.use-cases-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    color: white;
+    padding-left: 50px;
+    background-color:black;
+}
+
+.use-cases-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(201, 199, 199);
+    line-height: 30px;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-top: 35px;
+}
+.use-cases-section h2,h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36px;
+    color: rgb(247, 245, 245);
+    
+}
+.use-case1 p, .use-case2 p{
+padding-top: 80px;
+}
+.use-case3 h2{
+    width: 88%;
+}
+.heading{
+    
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    color: rgb(247, 245, 245);
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media(max-width:980px){
+    .use-cases-section{
+        display: block;
+    }
+    .use-case1 p, .use-case2 p, .use-case3 p{
+        padding-top: 10px;
+    }
+    .use-case3 h2{
+        width: 100%;
+    }
+    .use-cases-section h2,h1,h3{
+       font-size: 26px;
+    }
+    .use-cases-section{
+        padding-bottom: 10px;
+    }
+}

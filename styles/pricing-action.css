@@ -1,0 +1,91 @@
+.pricing-action{
+    position: relative;
+    color: black;
+    height: 200px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(245, 245, 245);
+}
+.pricing-action p{
+position: absolute;
+top: 40px;
+left: 50px;
+margin-top: 0;
+width: 70%;
+font-size: 35px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pricing-action span{
+    font-weight: bold;
+}
+.pricing-action button{
+position: absolute;
+top:35px;
+right: 10px;
+font-size: 20px;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 20px 150px 20px 20px;
+background-color: rgb(30, 116, 255);
+}
+.pricing-action button:hover{
+    cursor: pointer;
+    background-color: rgb(13, 74, 172);
+}
+.pricing-action .fa{
+    position: absolute;
+    right: 20px;
+}
+@media(max-width:1100px){
+    .pricing-action{
+      height: 300px;
+
+    }
+    .pricing-action p{
+      
+        width: 92%;
+        font-size: 25px;
+    }
+    .pricing-action button{
+      left: 10px;
+      bottom: 0;
+      top: 250px;
+      right: 10px;
+
+    }
+    
+}
+@media(max-width:600px){
+    .pricing-action button{
+        left: 15px;
+        bottom: 0;
+        top: 270px;
+        right: 35px;
+        height: 70px;
+        width: 270px;
+  
+      }
+      .pricing-action p{
+        left: 30px;
+        font-size: 23px;
+      }
+      .pricing-action .button-text{
+        font-size: 19px;
+
+      }
+      .pricing-action .fa{
+      
+        bottom: 20px;
+    }
+}
+@media(max-width:300px){
+    .pricing-action p{
+        top: 100px;
+     left: 5px;
+     text-align: center;
+        width: 92%;
+        font-size: 15px;
+    }  
+       
+}
